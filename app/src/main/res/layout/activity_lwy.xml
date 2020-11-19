@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lwy">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/download" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lwy"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lew jest jedynym gatunkiem kotów żyjącym w grupach nazywanych stadami. Każde stado składa się zazwyczaj z ponad 10 samic i kilku samców. Samce lwów są większe od samic, maja gęstą grzywę z włosów na głowie i barku. Lwy żywią się się różnymi zwierzętami - od zebr i bawołów, przez po drobne gryzonie i węże. Często ich ofiary są szybsze dlatego lwy polują w grupach. Młode lwiątka zaczynają jeść mięso w wieku 3 miesięcy, jednak nadal piją mleko matki przez kolejne 3 miesiące."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

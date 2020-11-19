@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_aguti_scene"
+
+    >
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="370dp"
+                android:layout_height="102dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/download"
+                tools:layout_editor_X="65dp"
+                tools:layout_editor_Y="-3dp" />
+
+            <Button
+                android:id="@+id/cennikb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="96dp"
+                android:background="#f0b030"
+                android:text="Cennik"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/godzinyb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="96dp"
+                android:background="#f0b030"
+                android:text="Godziny"
+                app:layout_constraintStart_toEndOf="@+id/cennikb"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/mapab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="96dp"
+                android:background="#f0b030"
+                android:text="Mapa"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.509"
+                app:layout_constraintStart_toEndOf="@+id/godzinyb"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/listab"
+                android:layout_width="208dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="12dp"
+                android:background="#f0b030"
+                android:text="Lista zwierząt do odwiedzenia"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/godzinyb" />
+
+            <Button
+                android:id="@+id/lwyb"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="240dp"
+                android:background="@drawable/lwy"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/zubrb"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="240dp"
+                android:background="@drawable/zubr"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.834"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/zbikb"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="384dp"
+                android:background="@drawable/zbik"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/ibisb"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="532dp"
+                android:background="@drawable/ibis"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/kolczatkab"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="384dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/kolczatka"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/zolwb"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="532dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/zolw"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/zyrafab"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="676dp"
+                android:background="@drawable/zyrafa"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/okapib"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/okapi"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.534"
+                app:layout_constraintStart_toEndOf="@+id/zyrafab"
+                app:layout_constraintTop_toBottomOf="@+id/zolwb" />
+
+            <Button
+                android:id="@+id/quizb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="#f0b030"
+                android:text="QUIZ"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.51"
+                app:layout_constraintStart_toEndOf="@+id/listab"
+                app:layout_constraintTop_toBottomOf="@+id/mapab" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

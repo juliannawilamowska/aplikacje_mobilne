@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lista">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/download" />
+
+        <Switch
+            android:id="@+id/lwys"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#f0b030"
+            android:checked="false"
+            android:switchTextAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="LWY"
+            tools:checked="false" />
+
+        <Switch
+            android:id="@+id/zs"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#f0ca30"
+            android:switchTextAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="ŻUBRY" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#f0b030"
+            android:switchTextAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="ZBIKI" />
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:switchTextAppearance="@style/TextAppearance.AppCompat.Large"
+            android:background="#f0ca30"
+            android:text="OKAPI" />
+
+        <Switch
+            android:id="@+id/switch5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:switchTextAppearance="@style/TextAppearance.AppCompat.Large"
+            android:background="#f0b030"
+            android:text="KOLCZATKI" />
+
+        <Switch
+            android:id="@+id/switch6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:switchTextAppearance="@style/TextAppearance.AppCompat.Large"
+            android:background="#f0ca30"
+            android:text="IBISY" />
+
+        <Switch
+            android:id="@+id/switch7"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#f0b030"
+            android:text="ŻÓŁWIE" />
+
+        <Switch
+            android:id="@+id/switch8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#f0ca30"
+            android:text="ŻYRAFY" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
