@@ -20,8 +20,8 @@
 
             <ImageView
                 android:id="@+id/imageView7"
-                android:layout_width="370dp"
-                android:layout_height="102dp"
+                android:layout_width="416dp"
+                android:layout_height="117dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -33,9 +33,9 @@
                 android:id="@+id/cennikb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="96dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="104dp"
                 android:background="#f0b030"
                 android:text="Cennik"
                 app:layout_constraintStart_toStartOf="parent"
@@ -45,9 +45,9 @@
                 android:id="@+id/godzinyb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginLeft="32dp"
-                android:layout_marginTop="96dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="104dp"
                 android:background="#f0b030"
                 android:text="Godziny"
                 app:layout_constraintStart_toEndOf="@+id/cennikb"
@@ -57,23 +57,23 @@
                 android:id="@+id/mapab"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="96dp"
+                android:layout_marginTop="104dp"
                 android:background="#f0b030"
                 android:text="Mapa"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.509"
+                app:layout_constraintHorizontal_bias="0.515"
                 app:layout_constraintStart_toEndOf="@+id/godzinyb"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
                 android:id="@+id/listab"
-                android:layout_width="208dp"
-                android:layout_height="48dp"
-                android:layout_marginTop="12dp"
+                android:layout_width="91dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="32dp"
                 android:background="#f0b030"
                 android:text="Lista zwierząt do odwiedzenia"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.103"
+                app:layout_constraintHorizontal_bias="0.052"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/godzinyb" />
 
@@ -95,7 +95,7 @@
                 android:layout_marginTop="240dp"
                 android:background="@drawable/zubr"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.834"
+                app:layout_constraintHorizontal_bias="0.862"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -161,7 +161,7 @@
                 android:layout_marginTop="44dp"
                 android:background="@drawable/okapi"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.534"
+                app:layout_constraintHorizontal_bias="0.523"
                 app:layout_constraintStart_toEndOf="@+id/zyrafab"
                 app:layout_constraintTop_toBottomOf="@+id/zolwb" />
 
@@ -169,13 +169,25 @@
                 android:id="@+id/quizb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="32dp"
                 android:background="#f0b030"
                 android:text="QUIZ"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.51"
+                app:layout_constraintHorizontal_bias="0.795"
                 app:layout_constraintStart_toEndOf="@+id/listab"
                 app:layout_constraintTop_toBottomOf="@+id/mapab" />
+
+            <Button
+                android:id="@+id/grab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Gra"
+                android:background="#f0b030"
+                app:layout_constraintEnd_toStartOf="@+id/quizb"
+                app:layout_constraintHorizontal_bias="0.433"
+                app:layout_constraintStart_toEndOf="@+id/listab"
+                app:layout_constraintTop_toBottomOf="@+id/godzinyb" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

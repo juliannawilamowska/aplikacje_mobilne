@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button zolw = findViewById(R.id.zolwb);
         Button zyrafa = findViewById(R.id.zyrafab);
         Button quiz = findViewById(R.id.quizb);
+        Button gra = findViewById(R.id.grab);
+
 
 
 
@@ -44,6 +46,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         zolw.setOnClickListener(this);
         zyrafa.setOnClickListener(this);
         quiz.setOnClickListener(this);
+        gra.setOnClickListener(this);
+
 
 
     }
@@ -104,6 +108,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent quizIntent = new Intent(getApplicationContext(), quiz.class);
                 startActivity(quizIntent);
                 break;
+            case R.id.grab:
+                Intent graIntent = new Intent(getApplicationContext(), gra.class);
+                startActivity(graIntent);
+                break;
+
 
 
 
