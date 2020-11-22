@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:freezesText="true"
-            android:text="Gracz 1: 0"
+            android:text="Lew: 0"
             android:textSize="30sp" />
         <TextView
             android:id="@+id/text_view_p2"
@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_view_p1"
             android:freezesText="true"
-            android:text="Gracz 2: 0"
+            android:text="Zebra: 0"
             android:textSize="30sp" />
         <Button
             android:id="@+id/button_reset"
