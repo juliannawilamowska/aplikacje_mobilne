@@ -111,8 +111,8 @@ public class gra extends AppCompatActivity implements View.OnClickListener {
         resetBoard();
     }
     private void updatePointsText() {
-        textViewPlayer1.setText("Lew: " + player1Points);
-        textViewPlayer2.setText("Zebra: " + player2Points);
+        textViewPlayer1.setText("Gracz 1: " + player1Points);
+        textViewPlayer2.setText("Gracz 2: " + player2Points);
     }
     private void resetBoard() {
         for (int i = 0; i < 3; i++) {
