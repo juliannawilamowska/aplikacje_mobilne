@@ -44,9 +44,9 @@ public class gra extends AppCompatActivity implements View.OnClickListener {
             return;
         }
         if (player1Turn) {
-            ((Button) v).setText("X");
+            ((Button) v).setText("🦁");
         } else {
-            ((Button) v).setText("O");
+            ((Button) v).setText("🦓");
         }
         roundCount++;
         if (checkForWin()) {
@@ -96,13 +96,13 @@ public class gra extends AppCompatActivity implements View.OnClickListener {
     }
     private void player1Wins() {
         player1Points++;
-        Toast.makeText(this, "Wygrywa gracz 1!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Wygrywa Lew!", Toast.LENGTH_SHORT).show();
         updatePointsText();
         resetBoard();
     }
     private void player2Wins() {
         player2Points++;
-        Toast.makeText(this, "Wygrywa gracz 2!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Wygrywa Zebra!", Toast.LENGTH_SHORT).show();
         updatePointsText();
         resetBoard();
     }
@@ -111,8 +111,8 @@ public class gra extends AppCompatActivity implements View.OnClickListener {
         resetBoard();
     }
     private void updatePointsText() {
-        textViewPlayer1.setText("Gracz 1: " + player1Points);
-        textViewPlayer2.setText("Gracz 2: " + player2Points);
+        textViewPlayer1.setText("Lew: " + player1Points);
+        textViewPlayer2.setText("Zebra: " + player2Points);
     }
     private void resetBoard() {
         for (int i = 0; i < 3; i++) {
