@@ -69,11 +69,11 @@
                 android:id="@+id/listab"
                 android:layout_width="91dp"
                 android:layout_height="52dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="16dp"
                 android:background="#f0b030"
                 android:text="Lista zwierząt do odwiedzenia"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.052"
+                app:layout_constraintHorizontal_bias="0.059"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/godzinyb" />
 
@@ -169,11 +169,11 @@
                 android:id="@+id/quizb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="16dp"
                 android:background="#f0b030"
                 android:text="QUIZ"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.795"
+                app:layout_constraintHorizontal_bias="0.903"
                 app:layout_constraintStart_toEndOf="@+id/listab"
                 app:layout_constraintTop_toBottomOf="@+id/mapab" />
 
@@ -181,11 +181,11 @@
                 android:id="@+id/grab"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
-                android:text="Gra"
+                android:layout_marginTop="16dp"
                 android:background="#f0b030"
+                android:text="Gra"
                 app:layout_constraintEnd_toStartOf="@+id/quizb"
-                app:layout_constraintHorizontal_bias="0.433"
+                app:layout_constraintHorizontal_bias="0.606"
                 app:layout_constraintStart_toEndOf="@+id/listab"
                 app:layout_constraintTop_toBottomOf="@+id/godzinyb" />
 
