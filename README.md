@@ -1,2 +1,2 @@
 # aplikacje_mobilne
- API 27
+ nexus 5 API 27
