@@ -9,6 +9,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class gra extends AppCompatActivity implements View.OnClickListener {
+    //zrobienie listy z przyciskami
     private Button[][] buttons = new Button[3][3];
     private boolean player1Turn = true;
     private int roundCount;
@@ -38,6 +39,7 @@ public class gra extends AppCompatActivity implements View.OnClickListener {
             }
         });
     }
+    // czyja kolej, liczenie rund i punktów
     @Override
     public void onClick(View v) {
         if (!((Button) v).getText().toString().equals("")) {
@@ -94,6 +96,7 @@ public class gra extends AppCompatActivity implements View.OnClickListener {
         }
         return false;
     }
+    //kto wygrał
     private void player1Wins() {
         player1Points++;
         Toast.makeText(this, "Wygrywa Gracz 1!", Toast.LENGTH_SHORT).show();
