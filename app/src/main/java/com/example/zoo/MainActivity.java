@@ -14,7 +14,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        
+        //ustawienie przycisków na onclicklistener
+        
         Button cennik = findViewById(R.id.cennikb);
         Button godziny = findViewById(R.id.godzinyb);
         Button mapa = findViewById(R.id.mapab);
@@ -51,6 +53,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     }
+    
+    
+    //gdy przycisk jest klikniety przenosi do innej activity
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
