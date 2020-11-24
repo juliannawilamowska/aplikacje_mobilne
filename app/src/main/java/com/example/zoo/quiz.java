@@ -16,6 +16,8 @@ public class quiz extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
+        
+        // ustawienie chcecBoxów na onclicklistener
 
         final CheckBox checkBox1, checkBox2, checkBox3, checkBox4, checkBox5, checkBox6, checkBox7,checkBox8;
         checkBox1 = findViewById(R.id.checkBox);
@@ -26,6 +28,8 @@ public class quiz extends AppCompatActivity {
         checkBox6 = findViewById(R.id.checkBox6);
         checkBox7 = findViewById(R.id.checkBox7);
         checkBox8 = findViewById(R.id.checkBox8);
+        
+        //wyniki czy poprawnee zostało zaznaczone
 
         checkBox1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
